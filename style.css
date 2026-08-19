@@ -21,4 +21,29 @@ body {
     font-family: "Inter", system-ui, sans-serif;
     color: var(--text);
     background: var(--cream);
+    line-height: 1.55;
+}
+
+h1, h2, h3 {
+    font-family: "Fraunces", georgia, serif;
+    font-weight: 600;
+    margin: 0 0 0.4em 0;
+    color: var(--navy);
+}
+
+a { color: inherit }
+
+img { max-width: 100%; display: block; }
+
+.ribbon {
+    height: 6px;
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        var(--coral) 0%, var(--coral) 20%,
+        var(--gold) 20%, var(gold) 40%,
+        var(--teal) 40%, var(--teal) 60%,
+        var(--plum) 60%, var(--plum) 80%,
+        var(--navy-light) 80%, var(--navy-light) 100%
+    );
 }
