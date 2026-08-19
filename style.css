@@ -41,7 +41,7 @@ img { max-width: 100%; display: block; }
     background: linear-gradient(
         90deg,
         var(--coral) 0%, var(--coral) 20%,
-        var(--gold) 20%, var(gold) 40%,
+        var(--gold) 20%, var(--gold) 40%,
         var(--teal) 40%, var(--teal) 60%,
         var(--plum) 60%, var(--plum) 80%,
         var(--navy-light) 80%, var(--navy-light) 100%
