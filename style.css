@@ -1,0 +1,24 @@
+:root {
+    --navy: #1b2740;
+    --navy-light: #26355a;
+    --cream: #faf7f1;
+    --gold: #e8a33d;
+    --coral: #e8605a;
+    --teal: #2fa69a;
+    --plum: #8b5fbf;
+    --text: #232733;
+    --text-soft: #5b6270;
+    --radius: 14px;
+    --max-width: 960px;
+}
+
+* { box-sizing: border-box;}
+
+html { scroll-behavior: smooth;}
+
+body {
+    margin: 0;
+    font-family: "Inter", system-ui, sans-serif;
+    color: var(--text);
+    background: var(--cream);
+}
