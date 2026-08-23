@@ -49,7 +49,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* Navigation and header */
-header .site-header {
+header.site-header {
     background: var(--navy);
     color: var(--cream);
     padding: 1.4rem 1.5rem 1.1rem;
