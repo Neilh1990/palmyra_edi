@@ -78,4 +78,54 @@ header.site-header {
 
 .site-header nav a {
     text-decoration: none;
+    color: #d9dced;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.3rem 0;
+    border-bottom: 2px solid transparent;
+}
+
+.site-header nav a:hover,
+.site-header nav a.active {
+    color: var(--cream);
+    border-bottom-color: var(--gold);
+}
+
+/* Page layout */
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2.2rem 1.5rem 4rem;
+}
+
+.page-intro {
+    max-width: 65ch;
+    color: var(--text-soft);
+    margin-bottom: 2rem;
+}
+
+/* Cards */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1.4rem;
+    margin-top: 1.5rem;
+}
+.card-link {
+    display: block;
+    text-decoration: none;
+    background: white;
+    border-radius:  var(--radius);
+    padding: 1.6rem 1.4rem;
+    box-shadow: 0 2px 10px rgba(27, 39, 64, 0.08);
+    border-top: 5px solid var(--gold);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card-link:nth-child(2) {
+    border-top-color: var(--teal);
+}
+
+.card-grid:nth-child(3) {
+    border-top-color: var(--coral);
 }
