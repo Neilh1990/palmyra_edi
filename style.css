@@ -170,3 +170,30 @@ main {
   font-size: 0.95rem;
   margin: 0;
 }
+
+/* Hope and EDI page stylings */
+.entry-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.entry {
+  background: white;
+  border-radius: var(--radius);
+  padding: 1.2rem 1.4rem;
+  box-shadow: 0 2px 8px rgba(27, 39, 64, 0.07);
+  border-left: 5px solid var(--teal);
+}
+
+.entry h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+
+.entry .meta {
+  font-size: 0.85rem;
+  color: var(--text-soft);
+  margin-bottom: 0.5rem;
+}
