@@ -33,6 +33,38 @@
         individual feel hopeful. Included is a statement from the individual explaining why it is important to them.
         If you would like your song adding, please speak to Neil and he will add it.
       </p>
+
+      <div id="playlist-list" class="entry-list"></div>
     </main>
+
+    <script>
+      const playlist = [
+        {
+          song: "The Best Day",
+          artist: "Atmosphere",
+          submittedBy: "Neil Harper - Senior support worker",
+          reason: "Describes somebodies day having a rough start. They make the best out of a bad situation and have a great day."
+        },
+        {
+          song: "Miss Independence",
+          artist: "Neyo",
+          submittedBy: "Samiat Alejo - Deputy Manager",
+          reason: "I always found it to be very inspirational"
+        }
+      ];
+
+      const list = document.getElementById("playlist-list");
+
+      playlist.forEach((item) => {
+        const el = document.createElement("div");
+        el.className = "entry";
+        el.innerHTML = `
+        <h3>${item.song} - ${item.artist}</h3>
+        <p class="meta">Picked by ${item.submittedBy}</p>
+        <p>"${item.reason}"</p>
+        `;
+        list.appendChild(el);
+      })
+    </script>
   </body>
 </html>
