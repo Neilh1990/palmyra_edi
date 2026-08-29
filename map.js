@@ -1,15 +1,20 @@
-const mapContainer =
-document.querySelector("#map-container");
+const mapContainer = document.querySelector("#map-container");
 
+const activeCountryID = ["GB", "NG", "IE"];
 fetch("world.svg")
-    .then(response => response.text())
-    .then(svg => {
-        mapContainer.innerHTML = svg;
+  .then((response) => response.text())
+  .then((svg) => {
+    mapContainer.innerHTML = svg;
 
-        const uk = document.querySelector("#GB");
+    activeCountryID.forEach((id) => {
+      const country = document.querySelector(`#${id}`);
 
-        uk.addEventListener("click", function(){
-            console.log("You clicked the United Kingdom");
+      if (country) {
+        country.classList.add("country-interactive");
+
+        country.addEventListener("click", function () {
+          console.log(`You clicked ${id}`);
         });
+      }
     });
-
+  });

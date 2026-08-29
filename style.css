@@ -198,3 +198,14 @@ main {
   color: var(--text-soft);
   margin-bottom: 0.5rem;
 }
+
+
+.country-interactive {
+  fill: var(--navy-light);
+  cursor: pointer;
+  transition: fill 0.2s, ease;
+}
+
+.country-interactive:hover {
+  fill: var(--teal);
+}
