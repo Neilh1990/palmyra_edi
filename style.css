@@ -89,6 +89,7 @@ header.site-header {
 
 .site-header nav {
   display: flex;
+  flex-wrap: wrap;
   gap: 1.2rem;
 }
 
