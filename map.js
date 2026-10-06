@@ -33,7 +33,10 @@ fetch("world.svg")
         country.classList.add("country-interactive");
 
         country.addEventListener("click", function () {
-          console.log(`You clicked ${id}`);
+         const selectedCountry = countryData[id];
+         countryTitle.textContent = selectedCountry.name;
+         countryStaff.textContent = selectedCountry.staff;
+         countryFact.textContent = selectedCountry.fact; 
         });
       }
     });
