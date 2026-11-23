@@ -6,12 +6,12 @@ const countryFact = document.querySelector("#country-fact");
 const countryData = {
   GB: {
     name: "United Kingdom",
-    staff: "Neil Harper",
+    staff: "Neil Harper, Stephen Watson, Jacki Murphy, Amy Morris",
     fact: "The UK is made up of four countries: England, Scotland, Wales and Northern Ireland.",
   },
   NG: {
     name: "Nigeria",
-    staff: "Samiat Alejo",
+    staff: "Samiat Alejo, TODO",
     fact: "Nigeria is home to over 250 ethnic groups and languages",
   },
   IE: {

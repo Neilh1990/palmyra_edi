@@ -245,7 +245,7 @@ main {
 }
 
 .map-layout .map-wrap {
-  flex: 2;
+  flex: 3;
   min-width: 0;
   max-width: none;
   margin: 0;
