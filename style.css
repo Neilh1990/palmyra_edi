@@ -201,7 +201,7 @@ main {
 
 /* FOR THE MAP PAGE */
 .map-wrap {
-  max-width: 620px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
@@ -245,7 +245,7 @@ main {
 }
 
 .map-layout .map-wrap {
-  flex: 3;
+  flex: 5;
   min-width: 0;
   max-width: none;
   margin: 0;
