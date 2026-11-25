@@ -6,18 +6,23 @@ const countryFact = document.querySelector("#country-fact");
 const countryData = {
   GB: {
     name: "United Kingdom",
-    staff: "Neil Harper, Stephen Watson, Jacki Murphy, Amy Morris",
+    staff: "Neil Harper, Stephen Watson, Jacki Murphy, Amy Morris, Jake Cook, Debbie Freyne",
     fact: "The UK is made up of four countries: England, Scotland, Wales and Northern Ireland.",
   },
   NG: {
     name: "Nigeria",
-    staff: "Samiat Alejo, TODO",
+    staff: "Samiat Alejo, Kayode Ogunsola, Emmanuel Owoeye, Abiola Akanbi, Adebukola Adebisi, Saheed Adelanim, Muideen Gbadegesin",
     fact: "Nigeria is home to over 250 ethnic groups and languages",
   },
   IE: {
     name: "Ireland",
     staff: "Colleen Tigue",
     fact: "Ireland has two official languages: Irish (Gaeilge) and English.",
+  },
+  TZ: {
+    name: "Tanzania",
+    staff: "Elsiena Sinah Katuuo",
+    fact: "More than 120 languages are spoken, Tanzania is one of the most linguistically diverse countries in africa.",
   },
 };
 const activeCountryID = ["GB", "NG", "IE"];
