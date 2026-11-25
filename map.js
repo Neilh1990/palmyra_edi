@@ -25,7 +25,7 @@ const countryData = {
     fact: "More than 120 languages are spoken, Tanzania is one of the most linguistically diverse countries in africa.",
   },
 };
-const activeCountryID = ["GB", "NG", "IE"];
+const activeCountryID = ["GB", "NG", "IE", "TZ"];
 fetch("world.svg")
   .then((response) => response.text())
   .then((svg) => {
